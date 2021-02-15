@@ -1,0 +1,713 @@
+/* Utilities */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+  
+img {
+    height: 250px;
+    width: 250px;
+}
+h1, h2 {
+    font-weight: 24px;
+    line-height: 1.2;
+    margin: 0 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+
+}
+
+.container {
+    max-width: 1324px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: whitesmoke;
+    margin: 20px 20px;
+    /* border-bottom: 1px solid black; */
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+#section-id-About .flex-container,
+#section-id-news .flex-container,
+#section-id-projects .flex-container {
+    align-items: center;
+}
+/* 
+.row{
+	display: flex;	
+}
+
+.col-1 {flex-basis: 8.33%;} /* width works too */
+.col-2 {flex-basis: 16.66%;}
+.col-3 {flex-basis: 25%;}
+.col-4 {flex-basis: 33.33%;}
+.col-5 {flex-basis: 41.66%;}
+.col-6 {flex-basis: 50%;}
+.col-7 {flex-basis: 58.33%;}
+.col-8 {flex-basis: 66.66%;}
+.col-9 {flex-basis: 75%;}
+.col-10 {flex-basis: 83.33%;}
+.col-11 {flex-basis: 91.66%;}
+.col-12 {flex-basis: 100%;} */
+
+/* Nav Bar */
+
+.navbar .flex-container {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0% 15%;
+    font-size: 22px;
+}
+
+.flex-container a:hover{
+    border-bottom: 2px solid black;
+}
+
+.flex-container a {
+    color: black;
+    padding: 1% 1%;
+    margin: 1% 1%;
+    text-decoration-style: none;
+    font-size: 24px;
+
+}
+
+
+/* Intro First Head */
+
+
+#section-id-About .flex-container {
+    align-items: center;
+    justify-content: space-around;   
+}
+
+#section-id-About .flex-container .imground,
+#section-id-About .flex-container .intro {
+    margin-top: 5%;
+}
+
+#section-id-About .flex-container img {
+    margin-left: 2%;
+    border-radius: 25px;
+    width: 450px;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+
+#section-id-About .flex-container .intro ul {
+    text-align: center;
+    margin: 2% 1%;
+    padding: 1% 1%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+
+#section-id-About .flex-container .intro a {
+    margin: 2% 1%;
+    padding: 1% 4%;
+}
+
+#section-id-About .flex-container .intro h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#section-id-About p{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#section-id-About .firsthead {
+    background-color: white;
+}
+
+#section-id-About a {
+    color: black;
+    background-color: white;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    text-decoration-style: none;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+#section-id-About a:hover {
+    border-bottom: 3px solid black;
+}
+
+/* End of intro First Head */
+
+
+/* Start of News */
+
+#section-id-news {
+    margin: 2% 1%;
+    background-color: white;
+    color: black;
+    /* width: 300px; */
+}
+#section-id-news p {
+    font-size: 16px;
+    line-height: 25px
+}
+
+#section-id-news h1 {
+    font-size: 26px;
+    padding: 5px;
+    line-height: 25px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#section-id-news .flex-container {
+    justify-content: space-around;
+}
+
+
+
+/* End of News */
+
+
+/* start of Projects */
+
+/* start of nepal project */
+
+
+#section-id-projects .flex-container img{
+    height: auto;
+    width: 1000px;
+}
+#section-id-projects .flex-container {
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+#section-id-projects .flex-container .content{
+    margin-right: 2%; 
+}
+
+
+
+#section-id-projects {
+    margin-top: 10px;
+}
+
+#section-id-projects h1{
+    margin-top: 30px;
+}
+
+
+#section-id-projects a {
+    color: purple;
+    font-size: 20px;
+    margin: 30px 0px;
+    padding: 5px 5px;
+}
+
+#section-id-projects .nepal a:hover,
+#section-id-projects .radical a:hover,
+#section-id-projects .graphic a:hover {
+    border-bottom: 2px solid purple;
+    border-top: 2px solid purple;
+}
+
+
+#section-id-projects p {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#section-id-projects h1{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 15px;
+}
+#section-id-projects .nepal .title {
+    background-color: white;
+    height: 100%;
+    color: black;
+    padding: 10px;
+    margin: 0px 15px;
+}
+#section-id-projects .nepal .title a {
+    color: purple;
+    font-size: 24px;
+    margin: 30px 0px;
+}
+
+#section-id-projects .nepal .title a:hover {
+    border-bottom: 3px solid black;
+}
+
+
+#section-id-projects .nepal .flex-container,
+#section-id-projects .graphic .flex-container,
+#section-id-projects .radical .flex-container {
+    overflow: hidden;
+}
+
+
+
+#section-id-projects .nepal .flex-container .nepalimg,
+#section-id-projects .graphic .flex-container .graphicimg,
+#section-id-projects .radical .flex-container .nepalimg {
+    margin: 15px 10px;
+    padding: 10px 10px;
+    border-right: 3px solid black;
+    height: 100%;
+    width: 150%;
+    margin-left: 80%;
+}
+
+#section-id-projects .radical {
+    margin-top: 20px;
+}
+
+#section-id-projects .radical a {
+    margin-left: 15px;
+}
+
+#section-id-projects .radical p {
+    margin-left: 15px;
+}
+
+
+#section-id-projects .graphic {
+    margin-top: 20px;
+}
+
+#section-id-projects .graphic a {
+    margin-left: 15px;
+}
+
+#section-id-projects .graphic p {
+    margin-left: 15px;
+}
+
+/* End of Projects */
+
+
+
+
+/* footer */
+
+.footer .flex-container {
+    height: 100%;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer a {
+    color: white;
+    padding: 4px;
+}
+
+/* Resume Page below this  */
+/* --------------------------------------------- */
+
+
+.resume .footer{
+    margin: -50px;
+}
+.resume h1 {
+    color: black;
+    /* background-color: white; */
+}
+
+
+.resume a {
+    color: black;
+    margin: 15px;
+    font-size: 14px;
+}
+
+
+.resume a:hover {
+    border-bottom: 1px solid black;
+}
+
+/* Resume Page ends this  */
+/* --------------------------------------------- */
+/* Nepal Visualization Begins below */
+
+.resume h1 {
+    color: black;
+    /* background-color: white; */
+}
+
+
+.btn a {
+    color: black;
+}
+
+
+.btn a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nepal {
+    color: black;
+}
+
+.nepal .info h1,
+.nepal .info p {
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+
+.nepal .info .flex-container {
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    height: 100%;
+}
+
+.nepal a {
+    color: black;
+    padding: 5px 5px;
+    margin: 2px 3px;;
+}
+
+.nepal a:hover{
+    border-bottom: 1px solid black;
+}
+
+.nepal .nepalpaper h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 26px;
+
+}
+
+.nepal .nepalpaper {
+    margin: 0px 50px;
+}
+
+.nepal .nepaldem video{
+    margin: 1.5% 3%;
+    width: 700px;
+    height: 100%;
+    align: center;
+
+}
+
+.nepal .nepaldem {
+    align-items: center;
+    background-color: white;
+}
+
+.radpage p,
+.radpage .mainpagenav p,
+.radpage .radicalbody p  {
+    text-align: center;
+    margin-bottom: 7px;
+    margin: 10px 50px;
+}
+
+
+.radpage .flex-container img,
+.radpage .flex-container ul {
+    margin: 0% 25%;
+}
+.radpage h1,
+.radpage .mainpagenav h1,
+.radpage .radicalbody h1  {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    margin: 10px 50px;
+}
+
+.radpage .mainpagenav .flex-container {
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.radpage .footer a {
+    background-color: black;
+}
+
+.radpage .radicallink .btn {
+    text-align: center;
+    justify-items: center;
+}
+
+
+/* Radical Page ends this  */
+/* --------------------------------------------- */
+/* Graphic Design Begins below */
+
+.graphicdesign a {
+    margin-left: 32px;
+    background-color: none;
+}
+
+.graphicdesign .btn a{
+    margin: 15% ;
+    color: black;
+}
+
+.graphicdesign .intro h1 {
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.graphicdesign .flex-container {
+    background-color: white;
+    color: black ;
+    /* margin: 2%; */
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.graphicdesign a.btn {
+    color: black;
+    justify-content: center;
+    padding: 3px 3px;
+}
+
+.graphicdesign a.btn:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.graphicdesign #insane img,
+.graphicdesign #time img,
+.graphicdesign #balehager img,
+.graphicdesign #eshi img,
+.graphicdesign #lunion img,
+.graphicdesign #mamaye img,
+.graphicdesign #radical img,
+.graphicdesign #weandI img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150%;
+    height: auto;
+}
+
+
+.graphicdesign h1 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+
+@media(max-width: 575px) {
+
+    /* Nav */
+    .container {
+        max-width: 375px;
+        /* overflow: hidden; */
+    }
+    * {
+         font-size: 22px;
+    }
+
+    .flex-container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img {
+         width: auto;
+         height: 250px;
+    }
+
+    .navbar .flex-container {
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0% 15%;
+    }
+
+    .flex-container a:hover{
+        border-bottom: 2px solid black;
+    }
+  
+    .flex-container a {
+        color: black;
+        padding: 1% 1%;
+        margin: 1% 1%;
+        text-decoration-style: none;
+    }
+
+
+    /* End of Nav */
+
+    /* Start of About Me */
+
+    .flex-container .intro .btn {
+        flex-direction: row;
+        max-width: 200px;
+        margin: 3% 9%;
+    }
+
+    #section-id-About a {
+        color: black;
+        background-color: white;
+        padding: 0px 0px;
+        margin: 15px 15px;
+        text-decoration-style: none;
+        font-size: 20px;
+        margin-top: 15px;
+    
+    }
+    
+    #section-id-About a:hover {
+        border-bottom: 3px solid black;
+    }
+
+    .section-id-About img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .section-id-About {
+        margin: 3% 1%;
+    }
+
+    /*  */
+    
+    /* End of intro First Head */
+
+    #section-id-news {
+        font-size: 12px;
+    }
+
+    #section-id-news {
+        margin: 2% 2%;
+        background-color: white;
+        color: black;
+        /* width: 300px; */
+    }
+    #section-id-news p {
+        font-size: 16px;
+        line-height: 25px
+    }
+    
+    #section-id-news h1 {
+        font-size: 20px;
+        padding: 5px;
+        line-height: 25px;
+        margin-bottom: 2%;
+        text-align: center;
+    
+    }
+
+    /*  */
+
+    #section-id-projects .flex-container img{
+        height: auto;
+        width: 400px;
+    }
+
+
+    #section-id-projects h1 {
+        font-size: 20px;
+        padding: 5px;
+        line-height: 25px;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    #section-id-projects p {
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    #section-id-projects .nepal .title a{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #section-id-projects .flex-container {
+        flex-direction: row;
+    }
+
+    #section-id-projects .radical img {
+        margin-left: 20%;
+    }
+
+    #section-id-projects .nepal img {
+        margin: 0% -27%;
+    }
+
+    .nepal img {
+        height: auto;
+        width: 40%;
+    }
+
+    #section-id-projects .graphic img {
+        margin: 0% -27%;
+    }
+
+
+
+    .footer .flex-container {
+        flex-direction: column;
+    }
+
+    .footer a {
+        color: white;
+        height: 100%;
+    }
+
+    .footer {
+        margin-top: 3%;
+    }
+    
+
+    
+}
+

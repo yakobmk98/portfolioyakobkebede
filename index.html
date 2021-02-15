@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
     <title>Hello!</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
+
+    <!-- Link to Fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Condensed" />
     
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
@@ -17,86 +21,147 @@
   
   
   <body>
-   <nav>
-    <ul>
-      <a href="#section-id-About">About</a>
-      <a href="#section-id-news">News</a>
-      <a href="#section-id-projects">Projects</a>
-    </ul>
-   </nav>
-    
-    <section id="section-id-About">
-      <img src="./assets/profpic.jpg" alt="Image of Yakob Kebede" style="width:50%;height:50%">
-      <h1>Yakob Kebede</h1>
-      <p> Computer Science, MCAS Boston College
-        <br> kebedey@bc.edu <br>
-        Senior at Boston College, Majoring in Computer Science and Minoring in 
-        Management and leaderdship.
-      </p>
-      <ul>
-        <a href="resume.html">Resume</a>
-        <a href="https://www.linkedin.com/in/yakob-kebede-854b45178/">Linked In</a>
-      </ul>
-    </section>
+    <section class="container"> 
+        <!-- Nav Bar -->
+      <section class="navbar flex-container">
+        <a href="#section-id-About">About</a>
+        <a href="#section-id-news">News</a>
+        <a href="#section-id-projects">Projects</a>
+      </section>
+      <!-- End of Nav Bar -->
 
-    <section id="section-id-news">
+
+      <!-- First Head introduction -->
+      
+      <section id="section-id-About">
+        <div class="flex-container">
+          <div class="imground">
+            <img src="./assets/profpic.jpg" alt="Image of Yakob Kebede">
+          </div>
+          <div class="intro">
+            <h1>Yakob Kebede</h1>
+            <p> 
+              Computer Science, MCAS Boston College
+              <br> kebedey@bc.edu <br>
+              Senior at Boston College,  <br>Majoring in Computer Science and  <br> Minoring in 
+              Management and leaderdship.
+            </p>
+            <ul class="btn">
+              <a href="resume.html">Resume</a>
+              <a target="_blank" href="https://www.linkedin.com/in/yakob-kebede-854b45178/">LinkedIn</a>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Start of News -->
+
+
+
+
+      <section id="section-id-news">
         <h1>News</h1>
-        <p>
-            Learning Web App Development <br>
-            Feburary 6 2021 <br>
-            Took Visualizations Course <br>
-            September 6 2020 <br>
-            Radical Route LLC Start up <br>
-            July 15 2020 <br>
-            Travelled to Ethiopia <br>
-            August 1 2018 <br>
-        </p>
+        <div class="flex-container">
+          <div class="content">
+            <p>
+              Learning Web App Development <br>
+              Took Visualizations Course <br>
+              Radical Route LLC Start up <br>
+              Travelled to Ethiopia <br>
+            </p>
+          </div>
+          <div class="date">
+            <p>
+              Feburary, 2021 <br>
+              Sept, 2020 <br>
+              July, 2020 <br>
+              August, 2018 <br>
+            </p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- End of News -->
+
+      <section id="section-id-projects">
+          <h1><u>Projects</u></h1>
+          <section class="nepal">
+            <section class="title">
+              <a href="nepalviz.html">Data Visualization Connections between Income Per Capita, 
+                Dropout Rates, and Life Expectancy in the District of Nepal
+              </a>
+              <p>
+                By: Yakob Kebede, Sonam Sherpa, and Manogya Acharya, Boston College, 
+                Visualization Course 2020.
+              </p>
+            </section>
+            
+            <section class="flex-container">
+              <section class="nepalimg">
+                <img src="./assets/nepalviz.png" alt="image of two data Visualization">
+              </section>
+    
+              <section class="seemore">
+                <br>
+                <ul>
+                    <a href="nepalviz.html"> Paper </a>
+                    <a href="nepalviz.html"> Demo </a> 
+                    <a href="nepalviz.html"> Link to Site </a>
+                </ul>
+              </section>
+            </section>
+
+          </section>
+
+          <section class="radical">
+            <section class="title">
+              <a href="radicalroute.html" alt="Radical Route LCC start up"> Radical Route LLC start up</a>
+              <p> By: Yakob Kebede, J'Saun Bastien Sherpa;  July 14, 2020. </p>
+            </section>
+
+            <section class="flex-container">
+              <img src="./assets/radprofpic.png" alt="image of two data Visualization">
+              <section class="seemore">
+                <ul>
+                  <a href="radicalroute.html"> Paper </a>
+                  <a href="https://radicalroute.com/" alt="Radical Route Website"> Link to Site</a>
+                </ul>
+              </section>
+            </section>
+          </section>
+
+          <section class="graphic">
+            <section class="title">
+              <a href="graphicdesign.html" alt="Radical Route LCC start up"> Graphic Design Collection</a>
+              <p> By: Yakob Kebede, Since 2019. </p>
+            </section>
+
+            <section class="flex-container">
+              <section class="graphicimg">
+                <img src="./assets/insane(final).png" alt="image of two data Visualization">
+              </section>
+              <section class="seemore">
+                <ul>
+                  <a href="graphicdesign.html"> Descriptions </a>
+                  <a href="graphicdesign.html"> See More Designs </a>
+                </ul>
+              </section>
+            </section>
+          </section>
     </section>
-
-    <section id="section-id-projects">
-        <h1>Projects</h1>
-        <section>
-            <a href="nepalviz.html"> Data Visualization Connections between Income Per Capita, 
-                Dropout Rates, and Life Expectancy in the District of Nepal</a>
-            <p> By: Yakob Kebede, Sonam Sherpa, and Manogya Acharya, Boston College, 
-                Visualization Course 2020. </p>
-            <img src="./assets/nepalviz.png" alt="image of two data Visualization" style="width:50%;height 50%">
-            <br>
-            <ul>
-                <a href="nepalviz.html"> Paper | </a>
-                <a href="nepalviz.html"> Demo | </a> 
-                <a href="nepalviz.html"> Link to Site </a>
-            </ul>
-
-        </section>
-
-        <section>
-            <a href="radicalroute.html" alt="Radical Route LCC start up"> Radical Route LLC start up</a>
-            <p> By: Yakob Kebede, J'Saun Bastien Sherpa;  July 14, 2020. </p>
-            <img src="./assets/radprofpic.png" alt="image of two data Visualization" style="width:50%;height 50%">
-            <br>
-            <ul>
-              <a href="radicalroute.html"> Paper | </a>
-              <a href="https://radicalroute.com/" alt="Radical Route Website"> Link to Site</a>
-            </ul>
-
-        </section>
-
-        <section>
-          <a href="graphicdesign.html" alt="Radical Route LCC start up"> Graphic Design Collection</a>
-          <p> By: Yakob Kebede, Since 2019. </p>
-          <img src="./assets/insane(final).png" alt="image of two data Visualization" style="width:50%;height 50%">
-          <br>
-          <ul>
-            <a href="graphicdesign.html"> Descriptions | </a>
-            <a href="graphicdesign.html"> See More Designs </a>
-          </ul>
-        </section>
+    
+    <!-- Footer Bar -->
+    <section class="footer">
+      <section class="flex-container" style="align-items:left;">
+        <a href="#section-id-About">About</a>
+        <a href="#section-id-news">News</a>
+        <a href="#section-id-projects">Projects</a>
+      </section>
+    </section>
+    <!-- End of Footer Bar -->
     </section>
   </body>
-  
-  
-  
-  
   
 </html>
