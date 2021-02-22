@@ -1,0 +1,105 @@
+{
+	"about":{
+        "name":"Yakob Minassie Kebede",
+        "title":"Computer Science, MCAS, Boston College",
+        "photo":"./assets/profpic.jpg",
+        "contact":"kebedey@bc.edu",
+        "resume":"./assets/yakobresume.pdf"
+
+	},
+	"news":[
+		{
+			"title": "Learning Web App Development",
+			"date": "Feburary, 2021"
+        },
+        {
+			"title": "Took Visualizations Course",
+			"date": "Sept, 2020"
+        },
+        {
+			"title": "Radical Route LLC Start up",
+			"date": "July, 2020"
+        },
+        {
+			"title": "Travelled to Ethiopia",
+			"date": "August, 2018"
+        }
+	],
+	"projects":[
+		{
+            "id":"nepal",
+            "title": "Data Visualization Connections between Income Per Capita, Dropout Rates, and Life Expectancy in the District of Nepal",
+            "authors": "Yakob Kebede, Sonam Sherpa, and Manogya Acharya",
+            "source": "World Data Boston College, Visualization Course 2020",
+            "teaser": "./assets/nepalviz.png",
+            "tags":["", ""],
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": ""
+                },
+                { 
+                    "label": "Video",
+                    "path": "/assets/nepalvizvid.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://https://acharyma.github.io/visualization-final-project/index.htmlstorycurve.namwkim.org/"
+                }
+            ],
+            "description": "About the Issue,  Education is a vital part of everyone's life. It gives an individual a chance and prepares them to get ready to face challenges of life more efficiently. Even after knowing the value of an education, an education is still not a necessity but a luxury in Nepal. rough its effect on the political economy of the provision of public goods. For example, in Nepal, as incomes and living standards have improved, private school enrollments have increased leaving public schools, especially in remote rural areas, struggling to fill classrooms. This weakened demand will inevitably lead to further lowering of quality of public schools, which remain the preserve of the poorest. Access to education is limited by geographical constraints, poor infrastructure, social and cultural norms, and a lack of well-trained teachers. See below for the relationship dropout rates in different districts."
+            
+        }, 
+
+        {
+            "id":"radical",
+            "title": "Radical Route LLC start up",
+            "authors": "Yakob Kebede, Sonam Sherpa, J'Saun Bastien",
+            "source": "World Data Boston College, Visualization Course 2020",
+            "teaser": "./assets/radprofpic.png",
+            "tags":["", ""],
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": ""
+                },
+                { 
+                    "label": "Video",
+                    "path": ""
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://radicalroute.com/"
+                }
+            ],
+            "description": ""
+            
+        }, 
+
+        {
+            "id":"graphic",
+            "title": "Graphic Designs",
+            "authors": "Yakob Kebede",
+            "source": "",
+            "teaser": "./assets/insane(final).png",
+            "tags":["", ""],
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": ""
+                },
+                { 
+                    "label": "Video",
+                    "path": ""
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://radicalroute.com/"
+                }
+            ],
+            "description": ""
+            
+        }
+        
+	]
+}
