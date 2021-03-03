@@ -45,6 +45,9 @@ p {
     height: 100%;
 }
 
+.filter {
+    margin-bottom: 1.5%;
+}
 
 
 #section-id-About .flex-container,
@@ -91,6 +94,15 @@ p {
     text-decoration-style: none;
     font-size: 24px;
 
+}
+
+.search input {
+    width:100%;
+  margin:0.5rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #eeeeee;
 }
 
 
@@ -173,6 +185,10 @@ p {
     background-color: white;
     color: black;
     /* width: 300px; */
+}
+
+#section-id-news .flex-container{
+    justify-content: space-between;
 }
 #section-id-news p {
     font-size: 16px;

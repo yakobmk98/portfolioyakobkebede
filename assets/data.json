@@ -32,7 +32,7 @@
             "authors": "Yakob Kebede, Sonam Sherpa, and Manogya Acharya",
             "source": "World Data Boston College, Visualization Course 2020",
             "teaser": "./assets/nepalviz.png",
-            "tags":["", ""],
+            "tags":["development", "visualization"],
             "materials": [
                 { 
                     "label": "Paper",
@@ -57,7 +57,7 @@
             "authors": "Yakob Kebede, Sonam Sherpa, J'Saun Bastien",
             "source": "World Data Boston College, Visualization Course 2020",
             "teaser": "./assets/radprofpic.png",
-            "tags":["", ""],
+            "tags":["development", "art"],
             "materials": [
                 { 
                     "label": "Paper",
@@ -82,7 +82,7 @@
             "authors": "Yakob Kebede",
             "source": "",
             "teaser": "./assets/insane(final).png",
-            "tags":["", ""],
+            "tags":["art", "graphic design"],
             "materials": [
                 { 
                     "label": "Paper",
